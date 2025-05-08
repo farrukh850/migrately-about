@@ -30,8 +30,11 @@ function HowItWorks() {
                 </div>
               </div>
               <div data-aos="fade-up" data-aos-delay="250" data-aos-duration="500" className="col-span-12 md:col-span-6 bg-[#EEF0FA]">
-                <div className="flex flex-col gap-7.5 py-10 px-7.5">
+                <div className="flex flex-col gap-7.5 py-10 px-7.5 relative">
                   <img src="/images/step-two-img.svg" className="" alt="Chat" />
+                  <div className="absolute top-[25%] left-[52%]">
+                    <img src="/images/copy.gif" className="w-7" alt="Copy Icon" />
+                  </div>
                 </div>
               </div>
             </div>
