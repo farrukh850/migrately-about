@@ -26,7 +26,7 @@ function Testimonials() {
   return (
     <div className="bg-[#F1F3FB] py-[105px] relative">
         <div className="container relative z-50">
-            <CommonHeading heading="Testimonials (What Users Say)" para="Helping Thousands Move Forward" />
+            <CommonHeading heading="Testimonials" para="Helping Thousands Move Forward" />
             <div className="grid grid-cols-12 gap-2 mt-10 items-stretch" data-aos="fade-up" data-aos-delay="200" data-aos-duration="500">
                 {feedbacks.map((feedback, index) => (
                     <div className="col-span-12 md:col-span-4">

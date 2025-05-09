@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 function Banner() {
   return (
     <div className="relative">
-        <div className="mt-25 lg:mt-[calc(113px+82px)] relative z-100 px-5 lg:px-0">
+        <div className="mt-25 lg:mt-[calc(113px+30px)] relative z-100 px-5 lg:px-0">
          <div className="container flex flex-col md:flex-row items-center justify-between gap-5 lg:gap-0">
           <div className="flex flex-col items-start flex-1">
             <div className="lg:max-w-[502px] max-w-full">

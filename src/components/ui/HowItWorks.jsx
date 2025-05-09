@@ -17,7 +17,7 @@ function HowItWorks() {
               <div data-aos="fade-up" data-aos-delay="250" data-aos-duration="500" className="col-span-12 md:col-span-6 bg-[#EEF0FA]">
                 <div className="flex flex-col gap-7.5 py-10 px-7.5">
                   <img src="/images/step-one-img1.svg" className="w-[251px] self-end" alt="Chat" />
-                  <img src="/images/step-one-img2.svg" className="w-[338px]" alt="Chat" />
+                  <img src="/images/step-one-img2.png" className="w-[338px] h-[133px]" alt="Chat" />
                 </div>
               </div>
             </div>
