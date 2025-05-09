@@ -17,6 +17,7 @@ function Banner() {
           </div>
           <div className="w-full h-[652px] flex-1 shadow-[0px_30.5px_40.37px_18.84px_rgba(62,82,198,0.07)] rounded-[10px] relative z-50">
             <img src="/images/migrately-hero.gif" alt="Chat Gif" className="z-50 relative w-full h-full object-contain" />
+            <div className="absolute bottom-0 right-0 sm:right-0 bg-white w-44 h-16 sm:w-52 sm:h-20 md:w-52 md:h-32 lg:w-52 lg:h-20 z-100"></div>
           </div>
          </div>
         </div>
