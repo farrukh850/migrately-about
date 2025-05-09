@@ -47,10 +47,10 @@ const Footer = () => {
           </ul>
         </div>
         <hr className="my-7.5 border-[#484E86]" />
-        <div className="flex flex-col lg:flex-row items-center gap-3 max-w-full lg:max-w-[80%] mx-auto pb-10">
+        <div className="flex flex-col lg:flex-row items-center gap-3 max-w-full lg:max-w-[90%] mx-auto pb-10">
           <small className="text-sm text-[#484E86] text-center lg:text-start block">MIGRATELY ® is a registered trademark of Remotebase Inc.</small>
           <small className="hidden lg:block text-[#A0A0A0]">|</small>
-          <ul className="flex items-center gap-2 lg:gap-10">
+          <ul className="flex items-center gap-2 lg:gap-10 flex-wrap">
             <li><a href="#" className="text-[11px] lg:text-sm text-[#484E86]">Privacy Policy</a></li>
             <li><a href="#" className="text-[11px] lg:text-sm text-[#484E86]">Terms & Conditions </a></li>
             <li><a href="#" className="text-[11px] lg:text-sm text-[#484E86]">Copyright policy</a></li>
