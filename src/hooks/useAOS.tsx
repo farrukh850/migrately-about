@@ -1,14 +1,13 @@
-// hooks/useAOS.js
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-const useAOS = () => {
+const useAOS = (): void => {
   useEffect(() => {
     AOS.init({
       duration: 1000,
-      once: true,
-      offset: 200,
+      once: false,
+      offset: 0,
       easing: 'ease-in-out-quad',
     });
     
