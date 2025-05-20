@@ -2,8 +2,8 @@ import React from "react";
 
 const Banner: React.FC = () => {
   return (
-    <div className="relative mt-24 lg:mt-0">
-      <div className="h-[500px] md:h-[350px] lg:h-[683px] relative z-100 px-5 lg:px-0">
+    <div className="relative mt-24 lg:mt-20">
+      <div className="h-[500px] md:h-[350px] lg:h-[602px] relative z-100 px-5 lg:px-0">
         <div className="container flex flex-col md:flex-row items-start md:items-center justify-between gap-5 lg:gap-0 h-full">
           <div className="flex flex-col items-start justify-start md:justify-center flex-1 h-[500px] md:h-[350px] lg:h-[683px]">
             <div className="max-w-[400px] lg:max-w-[550px]">

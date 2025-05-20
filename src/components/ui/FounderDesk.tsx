@@ -82,7 +82,7 @@ const FounderDesk: React.FC = () => {
                 --------------------------------------------
               </span>
               <p
-                className="text-lg leading-[130%] tracking-[-2%] text-[#232857]"
+                className="text-lg leading-[130%] tracking-[-2%] text-[#232857] md:block hidden"
                 data-aos="fade-up"
                 data-aos-delay="500"
                 data-aos-duration="500"
@@ -91,14 +91,24 @@ const FounderDesk: React.FC = () => {
               </p>
             </div>
           </div>
-          <img
+          <div className="flex-1">
+            <img
             src="/images/founder-img.png"
             alt="Founder Image"
-            className="flex-1 w-full md:w-1/2 grayscale-100"
+            className="flex-1 w-full grayscale-100"
             data-aos="fade-up"
             data-aos-delay="300"
             data-aos-duration="500"
           />
+          <p
+            className="text-lg leading-[130%] tracking-[-2%] text-[#232857] mt-3 block md:hidden"
+            data-aos="fade-up"
+            data-aos-delay="500"
+            data-aos-duration="500"
+          >
+            -<b>&nbsp;&nbsp; Qasim Asad Salam.</b> CEO, Migrately
+          </p>
+          </div>
         </div>
       </div>
     </section>
